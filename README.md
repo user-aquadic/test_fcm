@@ -1,3 +1,6 @@
+### add firebase file to disk and .env
+FIREBASE_CREDENTIALS=storage/app/firebase-auth.json
+
 ### Just Seed DB
 
 `php artisan migrate --seed`
