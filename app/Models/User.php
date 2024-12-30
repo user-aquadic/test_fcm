@@ -45,4 +45,14 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    /**
+     * Specifies the user's FCM token
+     *
+     * @return string|array
+     */
+    public function routeNotificationForFcm()
+    {
+        return 'eCUY0HnkSamK6NEUPagUFZ:APA91bFOC_5-6sx9spza6kYoek3boU759XqxsWyEWnTrsiwDxyBri0ynqlERrjBgY-IFe2ildWGf-LxsexVsW9-cLctGWpRFHB7wPFibBklWA6s1gwkLuWM';
+    }
 }
